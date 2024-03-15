@@ -17,12 +17,11 @@ classifiers = [
 ]
 dependencies = [
     'scikit-learn',
-	'scikit-survival',
+    'scikit-survival',
     'numpy',
     'pandas',
     'tensorflow>=2.13', 
-	'tensorflow-probability',
-    'rdata'
+    'tensorflow-probability'
 ]
 [project.urls]
 'Homepage' = 'https://github.com/UEFBiomedicalInformaticsLab/MODAE'
