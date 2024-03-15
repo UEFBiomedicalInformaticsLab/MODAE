@@ -1,0 +1,29 @@
+[build-system]
+requires = ['setuptools>=61.0']
+build-backend = 'setuptools.build_meta'
+[project]
+name = 'MODAE'
+version = '0.1.0'
+authors = [
+  { name='Teemu J. rintala', email='teemu.rintala@uef.fi'},
+]
+description = 'A multi-objective autoencoder implementation'
+readme = 'README.md'
+requires-python = '>=3.7'
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+]
+dependencies = [
+    'scikit-learn',
+	'scikit-survival',
+    'numpy',
+    'pandas',
+    'tensorflow>=2.13', 
+	'tensorflow-probability',
+    'rdata'
+]
+[project.urls]
+'Homepage' = 'https://github.com/UEFBiomedicalInformaticsLab/MODAE'
+'Bug Tracker' = 'https://github.com/UEFBiomedicalInformaticsLab/MODAE/issues'
